@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(199, 215, 228);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.card {
+    width: 400px;
+    border-radius: 10px;
+    background-color: azure;
+    padding: 20px;
+}
+
+.card-title {
+    margin-top: 20px;
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.price-info {
+    display: flex;
+}
+
+.porsche-logo {
+    height: 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 20px;
+    
+    
+}
+
+li {
+    list-style: none;
+    
+}
+
+.cta-btn {
+    padding: 5px 20px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.cancel-btn {
+    padding: 5px 10px;
+}
